@@ -1,0 +1,65 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+
+# Font settings
+font.family: serif
+mathtext.fontset: cm  # Computer Modern math
+text.usetex: True    
+
+# AXES
+axes.titlesize : 16
+axes.labelsize : 16
+axes.edgecolor : black
+axes.labelcolor : black
+axes.linewidth : 1
+# axes.labelpad: 30 # move labels away from axis slightly
+
+# Axis ticks
+xtick.direction: in
+ytick.direction: in
+xtick.top: False
+xtick.bottom: True
+ytick.left: True
+ytick.right: True
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.labelsize : 14
+ytick.labelsize : 14
+xtick.major.pad: 6
+ytick.major.pad: 6
+
+# Axis spines
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    True
+axes.spines.right:  True
+
+# Legend
+legend.frameon: True
+legend.framealpha: 0.8
+legend.edgecolor: black
+legend.facecolor: white
+legend.fontsize: 12
+legend.title_fontsize: 12
+legend.fancybox: False
+
+# GRID
+axes.grid : True
+grid.alpha : 0.7
+grid.linestyle : -
+grid.linewidth : 0.6
+
+# LINES
+
+axes.prop_cycle: cycler('color', ['710E86','6EA1FE', '006134', '009444', '6BBD45', 'ED1C24', 'F26127', 'FED206', '262262', '0077B6', '8FCAE5'])
+
+lines.linewidth : 1.5
+lines.markeredgewidth : 0.0
+
+
+# FIGURE OUTPUT 
+figure.figsize  : 7, 5
+figure.dpi : 150
+savefig.dpi : 200
+
+

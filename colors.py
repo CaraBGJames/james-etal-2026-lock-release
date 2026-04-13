@@ -25,3 +25,31 @@ type_linestyle_map = {
     "part": "-",  # solid for salt
     "saline": "--",  # dashed for saline
 }
+
+marker_style = {
+    "Silica sand": "h",
+    "PMMA": "D",
+    "Polystyrene beads": "X",
+    "Glass beads and kaolinite": "*",
+    "Kaolinite": "v",
+    "Saline": "P",
+}
+
+author_color = {
+    "Gadal et al. 2023": "#FF00F7",
+    "Gadal et al. 2025": "#FFA600",
+    "Wilson et al. 2017": "#00FF26",
+    "Jacobson and Testik 2014": "#00F2FF",
+    "Ottolenghi et al. 2016": "#FF0000",
+    "Nogueira et al. 2014": "#3700FF",
+    "Balasubramanian and Zhong 2018": "#22FFBD",
+}
+
+# legend entries for my data
+label_map = {
+    "stagnation high Q": "Jet high Q",
+    "stagnation low Q": "Jet low Q",
+    "grid high A": "Grid high A",
+    "grid low A": "Grid low A",
+    "none": "No mixing",
+}

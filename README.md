@@ -2,7 +2,7 @@
 
 This repository contains the data used in the research paper:
 
-> James C. B. G, Topf H. S., and Jellinek A. M. **How source momentum and particle loading shape deep-sea mining collector vehicle discharges.** *Submitted to Elementa: Science of the Anthropocene.*
+> James C. B. G, Jellinek A. M. and Topf H. S. **How source momentum and particle loading shape deep-sea mining collector vehicle discharges.** *Submitted to Elementa: Science of the Anthropocene.*
 
 ## Repository organization
 

@@ -9,23 +9,23 @@ This repository contains the data used in the research paper:
 ```
 james-etal-2026-lock-release
 │
+├───analysis/
+│   ├───matlab/             # pre-processing scripts to extract data from side-view videos
+│   │   └─── *.m
+│   └───python/             # further processing and analysis scripts to convert *.csv to *.npy and calculate mean shape
+│       └─── *.py 
+│
 ├───data/
 │   ├───datafiles/          # .npy experiment files
 │       └─── *.np
 │   └───metadata/           # .csv files for own experiments and literature comparisons
 │       └─── *.csv
 │
-├───analysis/
-│   ├───matlab/             # pre-processing scripts to extract data from side-view videos
-│   │   └─── *.m
-│   └───python/             # further processing and analysis scripts to convert *.csv to *.npy and calculate mean shape
-│       └─── *.py / *.ipynb
-│
 └───paper/
-    ├───figures/            # output figures
-    │   └─── *.png
-    └───figure_scripts/     # scripts that read data/ and write to figures/
-        └─── *.ipynb
+    ├───figure_scripts/     # scripts that read data/ and write to figures/
+    │   └─── *.ipynb
+    └───figures/            # output figures
+        └─── *.png
 ```
 
 ## Data organization

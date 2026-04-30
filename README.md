@@ -18,7 +18,7 @@ james-etal-2026-lock-release
 ├───analysis/
 │   ├───matlab/             # pre-processing scripts to extract data from side-view videos
 │   │   └─── *.m
-│   └───python/             # further processing and analysis scripts
+│   └───python/             # further processing and analysis scripts to convert *.csv to *.npy and calculate mean shape
 │       └─── *.py / *.ipynb
 │
 └───paper/

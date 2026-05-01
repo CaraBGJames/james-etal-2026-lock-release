@@ -6,12 +6,6 @@
 *.MOV
 *.avi
 *.xlsx
-*.csv
-
-#but upload metadata and clay files
-!metadata.csv
-!metadata*.csv
-!clay_psd_data.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

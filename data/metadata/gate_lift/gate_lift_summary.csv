@@ -1,0 +1,10 @@
+Experiment,PeakSpeed_cm_per_s,TotalTravel_cm
+gatelift1,5.18,15.07
+gatelift2,5.3,15.07
+gatelift3,5.14,15.74
+gatelift4,5.21,14.98
+gatelift5,5.22,15.55
+gatelift6,5.01,15.75
+Mean,5.18,15.36
+Std,0.09,0.33
+CV %,1.7 %,2.1 %

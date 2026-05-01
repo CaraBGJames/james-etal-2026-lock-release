@@ -56,24 +56,22 @@ Each file is a NumPy object array containing a single Python dictionary with the
 
 ## Getting Started
 
-### Prerequisites
-This repository uses [Git LFS](https://git-lfs.com/) to store `.npy` data files.
-Before cloning, install Git LFS:
+### Downloading the repository
+
+**From Zenodo** (recommended): Download and unzip — no additional steps needed.
+
+**From GitHub**: This repository uses [Git LFS](https://git-lfs.com/) to store `.npy` data files. Install Git LFS before cloning:
 
 - **Mac:** `brew install git-lfs`
 - **Linux:** `sudo apt install git-lfs` (or equivalent)
 - **Windows:** Download from https://git-lfs.com/
 
-Then enable it once:
+Then:
 ```bash
 git lfs install
-```
-
-### Cloning and pulling .npy files
-```bash
 git clone https://github.com/CaraBGJames/james-etal-2026-lock-release.git
 cd james-etal-2026-lock-release
-git lfs pull 
+git lfs pull
 ```
 
 ### Environment

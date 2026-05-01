@@ -2,7 +2,7 @@
 
 This repository contains the data used in the research paper:
 
-> James C. B. G, Jellinek A. M. and Topf H. S. **How source momentum and particle loading shape deep-sea mining collector vehicle discharges.** *Submitted to Elementa: Science of the Anthropocene.*
+> James C. B. G, Jellinek A. M. and Topf H. S. **Effect of initial source mixing on lock-release turbidity currents with application to deep-sea mining collector plumes.** *Submitted to Elementa: Science of the Anthropocene.*
 
 ## Repository organization
 

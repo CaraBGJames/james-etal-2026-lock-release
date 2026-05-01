@@ -1,1 +1,5 @@
-*.npy filter=lfs diff=lfs merge=lfs -text
+data/datafiles/JL1.npy filter=lfs diff=lfs merge=lfs -text
+data/datafiles/JH1.npy filter=lfs diff=lfs merge=lfs -text
+data/datafiles/GL2.npy filter=lfs diff=lfs merge=lfs -text
+data/datafiles/JL2.npy filter=lfs diff=lfs merge=lfs -text
+data/datafiles/GH2.npy filter=lfs diff=lfs merge=lfs -text

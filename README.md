@@ -53,8 +53,36 @@ Each file is a NumPy object array containing a single Python dictionary with the
 - **`av_shape_std`** — Standard deviation of the height profile across time at each streamwise position, in meters
  
 ---
+
+## Getting Started
+
+### Prerequisites
+This repository uses [Git LFS](https://git-lfs.com/) to store `.npy` data files.
+Before cloning, install Git LFS:
+
+- **Mac:** `brew install git-lfs`
+- **Linux:** `sudo apt install git-lfs` (or equivalent)
+- **Windows:** Download from https://git-lfs.com/
+
+Then enable it once:
+```bash
+git lfs install
+```
+
+### Cloning
+```bash
+git clone https://github.com/CaraBGJames/james-etal-2026-lock-release.git
+cd james-etal-2026-lock-release
+git lfs pull
+```
+
+### Environment
+```bash
+conda env create -f environment.yml
+conda activate <env-name>
+```
  
-## Loading the Data
+### Loading the Data
  
 ```python
 import numpy as np

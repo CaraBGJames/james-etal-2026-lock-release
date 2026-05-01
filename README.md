@@ -69,17 +69,17 @@ Then enable it once:
 git lfs install
 ```
 
-### Cloning
+### Cloning and pulling .npy files
 ```bash
 git clone https://github.com/CaraBGJames/james-etal-2026-lock-release.git
 cd james-etal-2026-lock-release
-git lfs pull
+git lfs pull 
 ```
 
 ### Environment
 ```bash
 conda env create -f environment.yml
-conda activate <env-name>
+conda activate env-james2026lock
 ```
  
 ### Loading the Data

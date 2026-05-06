@@ -37,7 +37,7 @@ def pickle_csvs_in_folder(csv_folder, pickle_folder, string_contains=None):
 
 
 pickle_csvs_in_folder(
-    csv_folder="/Users/cara/Library/CloudStorage/OneDrive-UBC/PhD/Experiments/2025/Experiment_files/csvs",
-    pickle_folder="/Users/cara/Library/CloudStorage/OneDrive-UBC/PhD/Experiments/2025/Experiment_files/pickles",
-    string_contains="Grid58_025gL_5_stop",
+    csv_folder="FOLDER WHERE CSV OF DATA ARE EXPORTED TO FROM MATLAB",
+    pickle_folder="FOLDER WHERE PICKLED FILES WILL BE SAVED",
+    string_contains="EXPERIMENT NAME OR OTHER STRING TO FILTER FILES",
 )

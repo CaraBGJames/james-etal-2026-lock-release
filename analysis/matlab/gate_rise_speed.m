@@ -10,8 +10,8 @@ clear; clc; close all;
 
 %% ── 1. Load video ────────────────────────────────────────────────────────
 
-exp_name    ="Grid34_025gL_16_stop";
-folder_path = '/Users/cara/Library/CloudStorage/OneDrive-UBC/PhD/Experiments/2025/Experiment_files/raw_vids/';
+exp_name    ='example_vid';
+folder_path = 'PATH_TO_RAW_VIDEOS_HERE';;
 vid_file_path = strcat(folder_path, exp_name, '.MP4');
 vid = VideoReader(vid_file_path);
 

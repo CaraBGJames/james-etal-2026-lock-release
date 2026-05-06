@@ -4,8 +4,7 @@ extract_mean_shape.py: stacks current profiles from .npy files of height and ext
 
 import numpy as np
 
-
-folder = "/Users/cara/Library/CloudStorage/OneDrive-UBC/PhD/Experiments/2025/Experiment_files/datafiles"
+folder = "../../data/datafiles"
 
 
 def stacked_current_profile(height, front, min_profile_length=0.6):
@@ -63,7 +62,7 @@ if __name__ == "__main__":
 
     # ###### load data
     metadata = pd.read_csv("metadata.csv")
-    folder = "/Users/cara/Library/CloudStorage/OneDrive-UBC/PhD/Experiments/2025/Experiment_files/datafiles"
+    folder = "../../data/datafiles"
 
     for _, row in metadata.iterrows():
         if "SN7_redo" in row.file_name:

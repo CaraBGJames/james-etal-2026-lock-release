@@ -29,7 +29,7 @@ close all;
 addpath("matlab_functions")
 
 % Define file location and read in video
-directory_path = "";
+directory_path = 'PATH_TO_RAW_VIDEOS_HERE';
 exp_name = 'example_vid';
 vid_file_path = fullfile(directory_path, [exp_name, '.MP4']);
 vid = VideoReader(vid_file_path);

@@ -4,11 +4,11 @@
 # Font settings
 font.family: serif
 mathtext.fontset: cm  # Computer Modern math
-# text.usetex: True  # Uncomment for true LaTeX rendering (requires LaTeX installation:
+text.usetex: True  # Uncomment for true LaTeX rendering (requires LaTeX installation:
                      # Linux: sudo apt install texlive-fonts-recommended
                      # Mac: brew install --cask mactex-no-gui
                      # Windows: https://miktex.org/download)
-text.usetex: False   # Matplotlib mathtext rendering (no LaTeX required)
+#. text.usetex: False   # Matplotlib mathtext rendering (no LaTeX required)
 
 # AXES
 axes.titlesize : 16

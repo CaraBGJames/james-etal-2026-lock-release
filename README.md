@@ -2,9 +2,9 @@
 
 This repository contains the data used in the research paper:
 
-> James C. B. G, Jellinek A. M. and Topf H. S. **Effect of initial source mixing on lock-release turbidity currents with application to deep-sea mining collector plumes.** _Elementa: Science of the Anthropocene, 14: 1. DOI: https://doi.org/10.1525/elementa.2026.00001_
+> James C. B. G, Jellinek A. M. and Topf H. S. **Effect of initial source mixing on lock-release turbidity currents with application to deep-sea mining collector plumes.** _Elementa: Science of the Anthropocene, 14: 1. DOI: https://doi.org/10.1525/elementa.2026.00001_.
 
-This repository can also be accessed/downloaded via Zenodo at _https://doi.org/10.5281/zenodo.22774421_
+This repository can also be accessed/downloaded via Zenodo at _https://doi.org/10.5281/zenodo.22774421_.
 
 ## Repository organization
 
